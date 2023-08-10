@@ -21,7 +21,7 @@ namespace HomeWork_lesson12_Task1
 
         public void ShowNewNews(NewsProviderArgs e)
         {
-            if (NewNews == null)
+            if (NewNews != null)
             {
                 NewNews(this, e);
 
@@ -30,7 +30,7 @@ namespace HomeWork_lesson12_Task1
         }
         public void ShowCurrentWeather(NewsProviderArgs e)
         {
-            if (CurrentWeather == null)
+            if (CurrentWeather != null)
             {
                 CurrentWeather(this, e);
 
@@ -39,7 +39,7 @@ namespace HomeWork_lesson12_Task1
         }
         public void ShowHumor(NewsProviderArgs e)
         {
-            if (Humor == null)
+            if (Humor != null)
             {
                 Humor(this, e);
 
@@ -48,7 +48,7 @@ namespace HomeWork_lesson12_Task1
         }
         public void ShowSport(NewsProviderArgs e)
         {
-            if (Sport == null)
+            if (Sport != null)
             {
                 Sport(this, e);
 
@@ -57,7 +57,7 @@ namespace HomeWork_lesson12_Task1
         }
         public void ShowIncident(NewsProviderArgs e)
         {
-            if (Incident == null)
+            if (Incident != null)
             {
                 Incident(this, e);
 
